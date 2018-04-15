@@ -1,0 +1,20 @@
+// Open terminal
+Ctrl + `
+
+// Add newly added files to git (not github, consider git as a bot)
+git add -A
+
+// Commit changes with a message
+git commit -m "what changes you made"
+
+// Push it to github
+git push origin -u master
+**origin master is a folder named master
+
+// to host a website in github you need to create a new beranch "gh-pages
+
+// Create and switch to a new branch
+git checkout -b gh-pages
+
+// Switch to existing branch
+git checkout branch-name
